@@ -1,1 +1,1 @@
-Website
+Website for Misfitcraft minecraft server.

@@ -1,0 +1,29 @@
+.statusbox
+{
+  text-align: center;
+  margin-top: 2em;
+  display: block;
+  background-color: #999999;
+  max-width: 40%;
+  min-width: calc(2em*18 + 2em);
+  max-height: 4em;
+  left: 50%;
+  right: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+  border-radius: 5px 50px 5px;
+}
+
+.statusbox>p
+{
+  font-size: 2em;
+  font-family: 'Ruda', 'sans-serif';
+  color: #1aff00;
+}
+
+.status
+{
+  color: white;
+  font-family: 'Ruda', 'sans-serif';
+  font-size: 1em;
+}
