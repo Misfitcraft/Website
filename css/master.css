@@ -56,9 +56,17 @@ footer
   text-align: left;
   bottom: 0;
   position: absolute;
+  margin-bottom: 4px;
 }
 
 footer>p
 {
   margin-left: 1em;
+}
+
+hr
+{
+  margin-left: 1em;
+  text-align: left;
+  width: calc(100% - 1em - 1);
 }
