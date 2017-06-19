@@ -20,7 +20,7 @@ header
   box-shadow: 0 10px 10px 5px #E1E1E1;
 }
 
-header>h1
+#top > h1
 {
   color: #e500ff;
   font-family: 'Fredoka One', cursive;
@@ -49,7 +49,7 @@ body
   -moz-user-select: none;
 }
 
-footer
+#bottom
 {
   font-family: 'Ruda', 'sans-serif';
   width: 100%;
@@ -59,7 +59,7 @@ footer
   margin-bottom: 4px;
 }
 
-footer>p
+#bottom>p
 {
   margin-left: 1em;
 }
