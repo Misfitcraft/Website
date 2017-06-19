@@ -5,12 +5,11 @@
   /*background-color: #999999 #E1E1E1;*/
   background-image: linear-gradient(#FBFBFB 40%, #EEEEEE 80%, #E1E1E1 100%);
   max-width: 40%;
-  min-width: calc(2em*18 + 2em);
+  min-width: calc(100% / 2);
   max-height: 4em;
-  left: 50%;
-  right: 50%;
+  right: 0;
   position: fixed;
-  transform: translateX(-50%);
+  /*transform: translateX(-50%);*/
   border-radius: 50px 5px 50px 2px;
   top:0.5em;
 }
@@ -20,6 +19,10 @@
   font-size: 2em;
   font-family: 'Ruda', 'sans-serif';
   color: #1aff00;
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .status

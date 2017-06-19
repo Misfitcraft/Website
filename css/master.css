@@ -26,6 +26,9 @@ header>h1
   font-family: 'Fredoka One', cursive;
   margin-left: 1em;
   padding-top: 0.5em;
+  z-index: 2;
+  position:relative;
+  max-width: calc(100% / 2 - 2em);
 }
 
 body
