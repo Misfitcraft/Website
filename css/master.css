@@ -24,6 +24,7 @@ header>h1
 {
   color: #e500ff;
   font-family: 'Fredoka One', cursive;
+  margin-left: 1em;
 }
 
 body
@@ -42,4 +43,18 @@ body
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+}
+
+footer
+{
+  font-family: 'Ruda', 'sans-serif';
+  width: 100%;
+  text-align: left;
+  bottom: 0;
+  position: absolute;
+}
+
+footer>p
+{
+  margin-left: 1em;
 }
