@@ -14,7 +14,7 @@ header
 {
   display: block;
   width: 100%;
-  min-height: 50px;
+  min-height: 4.25em;
   min-width: 90vw;
   background-color: #FBFBFB;
   box-shadow: 0 10px 10px 5px #E1E1E1;
