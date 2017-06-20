@@ -8,7 +8,12 @@ but this is a good thing*/
   padding: 0;
 }
 
-header
+body
+{
+  background-color: #EEEEEE;
+}
+
+.pageheader
 {
   display: block;
   width: 100%;
@@ -18,7 +23,7 @@ header
   box-shadow: 0 10px 10px 5px #E1E1E1;
 }
 
-#top > h1
+.pageheader>h1
 {
   color: #e500ff;
   font-family: 'Fredoka One', cursive;
@@ -29,10 +34,28 @@ header
   max-width: calc(100% / 2 - 2em);
 }
 
-body
+.pagefooter
 {
-  background-color: #EEEEEE;
+  font-family: 'Ruda', 'sans-serif';
+  width: 100%;
+  text-align: left;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 4px;
 }
+
+.pagefooter>p
+{
+  margin-left: 1em;
+}
+
+hr
+{
+  margin-left: 1em;
+  text-align: left;
+  width: calc(100% - 1em - 1);
+}
+
 
 .overflow-ellipsis
 {
@@ -45,26 +68,4 @@ body
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-}
-
-#bottom
-{
-  font-family: 'Ruda', 'sans-serif';
-  width: 100%;
-  text-align: left;
-  bottom: 0;
-  position: absolute;
-  margin-bottom: 4px;
-}
-
-#bottom>p
-{
-  margin-left: 1em;
-}
-
-hr
-{
-  margin-left: 1em;
-  text-align: left;
-  width: calc(100% - 1em - 1);
 }
