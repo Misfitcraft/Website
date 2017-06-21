@@ -69,3 +69,8 @@ hr
   -webkit-user-select: none;
   -moz-user-select: none;
 }
+
+span
+{
+  white-space:nowrap;
+}
