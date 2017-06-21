@@ -32,6 +32,7 @@ function onresponse(data)
   for (var i = 0; i < statusspans.length; i++)
   {
     statusspans[i].innerText = online ? "online" : "offline";
+    statusspans[i].style.color = (!online ? "red" : "#1aff00");
   }
   
   if(!online)
@@ -56,7 +57,7 @@ function onresponse(data)
   
   for (var i = 0; i < statusboxes.length; i++)
   {
-    statusboxes[i].childNodes[0].style = (offline ? "color:" + "red;" : "");
+    statusboxes[i].childNodes[0].style.color = (!online ? "red" : "");
   }
 }
 

@@ -1,4 +1,5 @@
-<?php 
+<?php
+  /*Hardcoded so people don't start using my server to call this script*/
   $hostname="170.130.139.221";
   $port=25565;
   
