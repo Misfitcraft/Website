@@ -9,7 +9,7 @@ function onresponse(data)
   var motdspans = document.getElementsByClassName("servermotd");
   var pspans = document.getElementsByClassName("serverplayers");
   var vspans = document.getElementsByClassName("serverversion");
-  var statusboxes = document.getElementsByClassName('statusbox');
+  var ipparas = document.getElementsByClassName("serverip");
   
   var online = true;
   
@@ -55,9 +55,9 @@ function onresponse(data)
     vspans[i].innerText = version;
   }
   
-  for (var i = 0; i < statusboxes.length; i++)
+  for (var i = 0; i < ipparas.length; i++)
   {
-    statusboxes[i].childNodes[0].style.color = (!online ? "red" : "");
+    statusboxes[i].style.color = (!online ? "red" : "");
   }
 }
 
