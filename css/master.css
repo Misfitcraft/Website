@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Ruda');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:700|Ruda');
 /*This is very inspecific so safe (more specific defs override),
 means all margins and padding will have tobe set by us if we want them,
 but this is a good thing*/
@@ -46,7 +46,7 @@ hr
 .pageheader>h1
 {
   color: #e500ff;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Philosopher', sans-serif;
   font-size: 2em;
   margin-left: 1em;
   padding-top: 0.5em;
@@ -57,7 +57,7 @@ hr
 
 .pagefooter
 {
-  font-family: 'Ruda', 'sans-serif';
+  font-family: 'Ruda', sans-serif;
   width: 100%;
   text-align: left;
   bottom: 0;
