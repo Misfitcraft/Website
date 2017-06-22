@@ -5,26 +5,38 @@
     <title>Misfitcraft - Minecraft Server!</title>
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/statusbox.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="js/basicfunctions.js" charset="utf-8"></script>
   </head>
-  <header id="top" class="pageheader">
-    <h1 class="unselectable overflow-ellipsis" title="Misfitcraft">Misfitcraft</h1>
+  <body>
+    <header id="top" class="pageheader">
+      <div id="underline">
+        
+      </div>
+      <h1 class="unselectable overflow-ellipsis navbutton selected" title="Misfitcraft">Misfitcraft</h1>
+      
+      <div class="navbar unselectable">
+        <a class="navbutton" href="#">Features</a>
+        <a class="navbutton" href="#">Membership</a>
+        <a class="navbutton" href="#">Blog</a>
+        <a class="navbutton" href="#">Contact us</a>
+      </div>
+    </header>
+    
     <div class="statusbox">
       <p title="IP:&nbsp;170.130.139.221:25565" class="overflow-ellipsis ippara">IP:&nbsp;170.130.139.221:25565</p>
       <div class="status">
         <p class="unselectable overflow-ellipsis">status:&nbsp;<span class="upstatus"></span>&nbsp;|&nbsp;players:&nbsp;<span class="serverplayers"></span>&nbsp;|&nbsp;MOTD:&nbsp;<span class="servermotd"></span>&nbsp;|&nbsp;version:&nbsp;<span class="serverversion"></span></p>
       </div>
     </div>
-  </header>
-  <body>
-  <article>
-    <header><h1></h1></header>
-  </article>
+    
+    <footer id="bottom" class="pagefooter">
+      <hr/>
+      <br/>
+      <p>&copy; 2017 Tom Merchant, Jonathan De Loght</p>
+    </footer>
+    <script src="js/status.js" charset="utf-8"></script>
+    <script src="js/navigation.js" charset="utf-8"></script>
   </body>
-  <footer id="bottom" class="pagefooter">
-    <hr/>
-    <br/>
-    <p>&copy; 2017 Tom Merchant, Jonathan De Loght <!--if nitpicking is coonsidered contributing--></p>
-  </footer>
-  <script src="js/status.js" charset="utf-8"></script>
 </html>

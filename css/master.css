@@ -8,30 +8,51 @@ but this is a good thing*/
   padding: 0;
 }
 
+/*
+html
+{
+  pointer-events: none; THIS IS FOR CAPTURING EVENTS OVER A NEGATIVE Z-INDEX VALUE, THIS WILL CAUSE HEADACHES
+}*/
+
 body
 {
-  background-color: #EEEEEE;
+  background-color: #000;
+}
+
+h1
+{
+  display: inline;
+}
+
+span
+{
+  white-space:nowrap;
+}
+
+hr
+{
+  color: white;
 }
 
 .pageheader
 {
-  display: block;
   width: 100%;
-  min-height: 4.25em;
-  min-width: 90vw;
-  background-color: #FBFBFB;
-  box-shadow: 0 10px 10px 5px #E1E1E1;
+  min-height: 3em;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pageheader>h1
 {
   color: #e500ff;
   font-family: 'Fredoka One', cursive;
+  font-size: 2em;
   margin-left: 1em;
   padding-top: 0.5em;
-  z-index: 2;
-  position:relative;
-  max-width: calc(100% / 2 - 2em);
+  padding-left: 0px;
+  text-align: left;
+  left: 0;
 }
 
 .pagefooter
@@ -42,11 +63,13 @@ body
   bottom: 0;
   position: absolute;
   margin-bottom: 4px;
+  background-color: #111111;
 }
 
 .pagefooter>p
 {
   margin-left: 1em;
+  color: white;
 }
 
 hr
@@ -68,9 +91,4 @@ hr
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-}
-
-span
-{
-  white-space:nowrap;
 }

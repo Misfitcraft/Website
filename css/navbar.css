@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Ruda');
+
+.navbar
+{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+
+.navbutton
+{
+  max-height: 3.75em;
+  padding: 1.5em;
+  font-family: 'Ruda', 'sans-serif';
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.navbutton.selected, .navbutton.selected:hover
+{
+  cursor: default;
+}
+
+.navbutton:hover
+{
+  color: #e500ff;
+}
+
+.navbuttons
+{
+  position: relative;
+  min-height: 3.75em;
+  z-index: 0;
+}
+
+#underline
+{
+  min-width: 10px;
+  min-height: 3.75em;
+  display: block;
+  border-bottom: 0.25em solid #e500ff;
+  position: absolute;
+  float: left;
+  z-index: -5;
+  transition: all ease 0.3s;
+}
