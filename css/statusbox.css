@@ -6,6 +6,7 @@
   max-height: 4em;
   position: fixed;
   background-color: #111111;
+  left: 2em;
 }
 
 .statusbox>p

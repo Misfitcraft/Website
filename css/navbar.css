@@ -35,6 +35,12 @@
   z-index: 0;
 }
 
+.bullet
+{
+  color: white;
+  text-align: center;
+}
+
 #underline
 {
   min-width: 10px;
