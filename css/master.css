@@ -38,9 +38,11 @@ hr
 {
   width: 100%;
   min-height: 3em;
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  background-color: black;
+  z-index: 3;
 }
 
 .pageheader>h1
@@ -55,14 +57,21 @@ hr
   left: 0;
 }
 
+.contentbox
+{
+  text-align: center;
+  color: white;
+  margin-top: 6.5em; /*So it doesn't get hidden behind the header*/
+  margin-bottom: 3em; /*So it doesn't get hidden behind the footer*/
+}
+
 .pagefooter
 {
   font-family: 'Ruda', sans-serif;
   width: 100%;
   text-align: left;
   bottom: 0;
-  position: absolute;
-  margin-bottom: 4px;
+  position: fixed;
   background-color: #111111;
 }
 

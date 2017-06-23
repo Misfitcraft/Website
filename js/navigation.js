@@ -17,4 +17,4 @@ function update()
   }
 }
 
-window.setInterval(update, 100);
+window.setInterval(update, 300);
