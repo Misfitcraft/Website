@@ -1,0 +1,9 @@
+section {
+    border: solid black 3px;
+    border-collapse: collapse;
+    margin: 2px;
+}
+article{
+    border-top: solid black 1px;
+    margin: 1px;
+}
