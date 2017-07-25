@@ -1,9 +1,24 @@
 section {
-    border: solid black 3px;
+    border: solid #e500ff 3px;
     border-collapse: collapse;
     margin: 2px;
 }
 article{
-    border-top: solid black 1px;
+    border-top: solid #e500ff 1px;
     margin: 1px;
+}
+
+h1, h2, h3, p{
+    color: greenyellow;
+}
+
+a{
+    color: green;
+}
+a:hover{
+    color: #e500ff;
+}
+
+a:visited{
+    color: green;
 }
